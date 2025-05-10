@@ -10,7 +10,7 @@ from langchain_community.vectorstores.faiss import FAISS
 import time
 
 # Your Groq API key
-groq_api_key = "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"
+groq_api_key = "YOUR API KEY"
 
 # Initialize vector store once per session
 if "vector" not in st.session_state:
